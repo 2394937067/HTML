@@ -1,0 +1,170 @@
+    html，body{
+			margin: 0;
+			padding: 0;
+		}
+		ul{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		.wrapper{
+			max-width: 750px;
+			margin: 0 auto;
+			padding: 0;
+			line-height: 2em;
+			display: flex;
+			flex-wrap: nowrap;
+		}
+		a{
+			text-decoration: none;
+			color: unset;
+		}
+		i{
+			font-style: normal;
+		}
+		/*背景*/
+			.bj{
+				background-color: #F2F2F2;
+			}
+		/*背景结束*/
+
+		/*顶端*/
+		.top{
+			position: sticky;
+			top:0;
+			margin: 0;
+			padding: 0;
+		}
+		.top>.wrapper{
+			flex-direction: row;
+			height: 60px;
+			background-color: #F5F5F5;
+		}
+		.top>.wrapper>div{
+			flex-basis: 100px;
+			text-align: center;
+			flex-grow: 1;
+			line-height: 60px;
+		}
+		.top>.wrapper>div:first-child{
+			color: #717171;
+			text-align: left;
+			padding-left: 20px;
+			font-size: 18px;
+		}
+		.top>.wrapper>div:nth-child(2){
+			font-size: 20px;
+		}
+		/*顶端结束*/
+
+		/*搜索栏*/
+		.search{
+			margin-top: 20px;
+		}
+		.search>.wrapper{
+			height: 60px;
+			background-color: #E3E4E6;
+			text-align: center;
+		}
+		.search>.wrapper>div{
+			width: 95%;
+			height: 30px;
+			text-align: left;
+			margin: auto;
+			color: #717171;
+			background-color: white;
+		}
+		.search>.wrapper>div>input{
+			border: none;
+			width: 60%;
+		}
+		/*搜索栏结束*/
+
+		/*广告*/
+		.gg>.wrapper>img{
+			width: 100%;
+		}
+
+		 /*导航栏*/ 
+		 .header>.wrapper{
+		 	background-color: #ffffff;
+		 }
+		.header>.wrapper>div{
+			flex-grow: 1;
+			border: 1px solid #ededed;
+		}
+		.header>.wrapper>div>div:first-child{
+			text-align: center;
+			
+		}
+		.header>.wrapper>div>div:first-child>img{
+			width: 60%;
+		}
+		.header>.wrapper>div>div:last-child{
+			text-align: center;
+			font-size: 12px;
+		}
+	
+		 /*导航栏结束*/
+
+		/*内容开始*/
+
+		/*跑车世界*/
+		.carsworld>.wrapper{
+			flex-direction: column;
+			border: 1px solid #ededed;
+			margin-top: 10px;
+			background-color: #ffffff;
+		}
+		.carsworld>.wrapper>div:nth-child(1){
+			flex-grow: 2;
+		}
+		.carsworld>.wrapper>div:nth-child(2){
+			flex-grow: 8;
+		}
+		.carsworld>.wrapper>div:nth-child(3){
+			flex-grow: 1;
+			width: 95%;
+			background-color: #F8F8F8;
+			border: 1px solid #ededed;
+			margin: 0 auto;
+		}
+		.carsworld>.wrapper>div:nth-child(4){
+			flex-grow: 2;
+		}
+		.carsworld>.wrapper>div:nth-child(1),
+		.carsworld>.wrapper>div:nth-child(3),
+		.carsworld>.wrapper>div:nth-child(4){
+			display: flex;
+		}
+		.carsworld>.wrapper>div:nth-child(3)>img{
+			height: 100%;
+		}
+		.carsworld>.wrapper>div:nth-child(4)>div{
+			flex-grow: 1;
+			border-right: 1px solid #ededed;
+			text-align: center;
+		}
+		.carsworld>.wrapper>div:nth-child(3)>i{
+			text-align: center;
+			line-height: 128px;
+		}
+
+		/*跑车世界结束*/
+
+		/*内容结束*/
+
+		/*底部*/
+		.bottom>.wrapper>div{
+			flex-grow: 1;
+			display: flex;
+			flex-direction: column;
+			background-color: #F9F9F9;
+			text-align: center;
+		}
+		.bottom{
+			position: sticky;
+			bottom: 0;
+		}
+
+		/*底部结束*/
